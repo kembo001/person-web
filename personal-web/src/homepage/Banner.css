@@ -1,0 +1,52 @@
+.banner h1{
+    font-size: 4vw;
+    margin-bottom: 0;
+}
+
+.banner .text{
+    display: flex;
+}
+
+.banner p{
+    font-size: 2rem;
+    width: 50%;
+}
+
+.banner h1 {
+    font-size: 4vw;
+    margin-bottom: 0;
+  }
+  
+  .banner .text {
+    display: flex;
+  }
+  
+  .banner p {
+    font-size: 2rem;
+    width: 50%;
+    margin-top: 1rem;
+  }
+  
+  .hover-effect {
+    position: relative;
+  }
+  
+  .hover-effect::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .hover-effect:hover::before {
+    opacity: 1;
+  }
+  
+  .my-name h1{
+      opacity: .5;
+      font-size: 2rem;
+      text-align: center;
+      letter-spacing: 3px;
+  }
